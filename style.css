@@ -1,0 +1,30 @@
+.first{
+    background-image: url('./Anime\ Background_2.gif');
+   background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+    height:100vh;
+}
+
+.mainFrame{
+    
+   border-radius: 5px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin:0 auto;  
+  position: relative;
+  background: transparent;
+}
+
+#mainImg{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 55%;
+  opacity: 1;
+ 
+}

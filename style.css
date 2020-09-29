@@ -1,29 +1,26 @@
 .first{
-    background-image: url('./Anime\ Background_2.gif');
-   background-size: cover; /* or contain depending on what you want */
+  background-image: url('./Anime\ Background_2.gif');
+  background-size: cover; /* or contain depending on what you want */
   background-position: center center;
   background-repeat: no-repeat;
-    height:100vh;
+  height:100vh;
 }
 
 .mainFrame{
-    
-   border-radius: 5px;
+  background-image: url("./comingsoon.png");
   background-position: center center;
   background-repeat: no-repeat;
-  height: 100%;
+  background-size: contain;
+  height: 55%;
+  width: 55%;
+  top:20%;
   margin:0 auto;  
   position: relative;
-  background: transparent;
 }
 
-#mainImg{
-    margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  opacity: 1;
- 
+@media screen and (max-width: 600px) {
+  div.mainFrame{
+    height: 75%;
+    width: 75%;
+  }
 }
